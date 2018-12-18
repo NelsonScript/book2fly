@@ -1,0 +1,40 @@
+.left {
+    text-align: right;
+    padding: 0 0.5em 0 2em;
+    width: 100px;
+  }
+  
+  .right {
+    text-align: left;
+    width: 50px;
+  }
+
+.spacer {
+    width: 180px;
+    flex: 1 1 auto;
+  }
+  
+ mat-card {
+    max-width: 70%;
+  }
+
+  mat-spinner {
+    margin: 25%;
+  }
+  @media screen and (min-width: 1024px) and (orientation: landscape) {
+    mat-card-actions {
+      padding-left: 90%;
+    } 
+  }
+
+  @media screen and (max-width: 640px) and (orientation: landscape) {
+    mat-card-actions {
+      padding-left: 80%;
+    } 
+  }
+
+  @media screen and (max-width: 360px) and (orientation: portrait) {
+    mat-card-actions {
+      padding-left: 65%;
+    } 
+  }

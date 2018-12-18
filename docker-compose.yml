@@ -1,0 +1,9 @@
+version: '3.6'
+services:
+  web:
+    build: .
+    ports:
+     - "4200:4200"
+    command: sh -c 'npm install; npm start' 
+    volumes:
+     - .:/usr/app 
