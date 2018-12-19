@@ -42,7 +42,8 @@ import { B2fBookComponent } from './b2f-book/b2f-book.component';
     JwtModule.forRoot({
       config: {
         tokenGetter: function  tokenGetter() {
-             return     localStorage.getItem('access_token');},
+             return localStorage.getItem('access_token');
+            },
        //En esta matriz, puede agregar cualquier dominio que tenga permitido recibir las API públicas como JWT.      
         whitelistedDomains: ['localhost:4200', 'https://demo.booktofly.co'],
         //En esta matriz, puede agregar rutas que no tienen permitido recibir el token JWT.

@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/book2fly",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
